@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.95);
+  margin: 3rem auto;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  border-radius: 16px;
+  padding: 2.5rem 2rem 1.5rem 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  color: #512da8;
+  margin-bottom: 0.3rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #6a1b9a;
+  letter-spacing: 1px;
+}
+
+.image-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.image-section img {
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(80,0,128,0.12);
+  margin-bottom: 0.3rem;
+}
+
+.image-section figcaption {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1.2rem;
+}
+
+.content h2 {
+  color: #3949ab;
+  margin-top: 1.6rem;
+}
+
+.content p {
+  line-height: 1.7;
+  font-size: 1.07rem;
+  color: #222;
+  margin-bottom: 1.1rem;
+}
+
+.content ul {
+  list-style: disc inside;
+  color: #512da8;
+  padding-left: 1.1em;
+  font-size: 1.05rem;
+}
+
+footer {
+  margin-top: 2.5rem;
+  text-align: center;
+  color: #6a1b9a;
+  font-size: 0.98rem;
+}

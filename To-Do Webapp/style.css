@@ -1,0 +1,109 @@
+body {
+  background: linear-gradient(135deg, #b2fefa 0%, #0ed2f7 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.todo-container {
+  background: #fff;
+  max-width: 480px;
+  margin: 3rem auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.13);
+  padding: 2rem 2.5rem;
+}
+h1 {
+  text-align: center;
+  color: #0890d3;
+  margin-bottom: 1.5rem;
+}
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+form input {
+  flex: 1;
+  padding: 0.7rem;
+  border: 1px solid #c2e9fb;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+form button {
+  padding: 0 1.3rem;
+  background: #0ed2f7;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+form button:hover {
+  background: #0890d3;
+}
+section {
+  margin-bottom: 2rem;
+}
+h2 {
+  color: #333;
+  margin-bottom: 0.7rem;
+  font-size: 1.3rem;
+}
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.task-item {
+  background: #f4faff;
+  border: 1px solid #daeefb;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding: 0.9rem 0.8rem 0.7rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  position: relative;
+}
+.task-item .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+}
+.task-text {
+  font-size: 1.08rem;
+  color: #222;
+  flex: 1;
+  word-break: break-word;
+}
+.completed .task-text {
+  text-decoration: line-through;
+  color: #666;
+}
+.task-actions {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+}
+.task-actions button {
+  background: #f0fafb;
+  border: 1px solid #b2fefa;
+  border-radius: 6px;
+  font-size: 0.97rem;
+  color: #0890d3;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.task-actions button:hover {
+  background: #0ed2f7;
+  color: #fff;
+}
+.timestamp {
+  font-size: 0.87rem;
+  color: #aaa;
+  margin-top: 0.2rem;
+}
